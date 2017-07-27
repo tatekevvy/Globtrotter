@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtCurrentSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speed"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <CheckBox
+        android:id="@+id/chkMetricUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/metric_units"/>
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Pedometer"
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Pedometer" />
+
+    <fragment class="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

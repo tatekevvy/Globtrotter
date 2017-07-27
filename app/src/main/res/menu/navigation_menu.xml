@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_account"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="My Account"
+        app:showAsAction="never"
+
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/nav_location"
+       android:icon="@mipmap/ic_add_location_black_24dp"
+        android:title="Location"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/nav_run"
+        android:icon="@mipmap/ic_directions_run_black_24dp"
+        android:title="Run"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/nav_health"
+        android:icon="@mipmap/ic_person_black_24dp"
+        android:title="Health Check"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/nav_will"
+        android:icon="@mipmap/ic_add_shopping_cart_black_24dp"
+        android:title="Will Gear"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/nav_signin"
+        android:icon="@mipmap/ic_mail_black_24dp"
+        android:title="Sign In/Out"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/nav_about"
+        android:icon="@mipmap/ic_info_black_24dp"
+        android:title="About"
+        tools:ignore="HardcodedText" />
+</menu>

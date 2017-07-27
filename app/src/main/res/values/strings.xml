@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GlobTrotter</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="metric_units">metric_units</string>
+    <string name="speed">speed</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cancel_button">cancel_button</string>
+    <string name="submit_button">submit_button</string>
+    <string name="per_weight">per_weight</string>
+    <string name="calories_per_weight">calories_per_weight</string>
+    <string name="total_weight_consumed">total_weight_consumed</string>
+    <string name="total_calories">total_calories</string>
+    <string name="description">description</string>
+    <string name="date">date</string>
+    <string name="back_button">back_button</string>
+    <string name="add_new_log_entry">add_new_log_entry</string>
+    <string name="quit_button">quit_button</string>
+    <string name="total_cals">total_cals</string>
+    <string name="log_button">log_button</string>
+    <string name="average_cals">average_cals</string>
+    <string name="total_time">total_time</string>
+    <string name="about_para">
+        Will is an African Brand that is engaged in the design, \n development, manufacturing, marketing and sales of performance apparel, footwear and accessories.
+    </string>
+    <string name="about_belief">
+        We believe that people who are Inspired, who are Willing to put in the Work and Never give up can do the seemingly impossible.
+    </string>
+    <string name="our_core_belief">Our Core Belief</string>
+    <string name="about_will">About Will</string>
+    <string name="mission">Our Mission</string>
+    <string name="mission_para">To Drive &amp; Inspire greater athletic performance.</string>
+    <string name="vison">Our Vision</string>
+    <string name="vision_para">To Inspire and Empower all of the worlds Athletes*.\n                      *"We are all athletes"</string>
+
+</resources>

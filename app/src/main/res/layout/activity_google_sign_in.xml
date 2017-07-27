@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kelvinmudzimuirema.globtrotter.GoogleSignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="325dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:contentDescription="profile image"
+            android:src="@drawable/profileimage"
+            android:layout_weight="12.80"
+            tools:ignore="HardcodedText,InefficientWeight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Name"
+                android:id="@+id/tv_name"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Email"
+                android:id="@+id/tv_email"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="#E02F2F"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:id="@+id/iv_google"
+            android:src="@drawable/google_plus"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/tv_google"
+            android:gravity="center_vertical"
+            android:text="Sign in with Google"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
